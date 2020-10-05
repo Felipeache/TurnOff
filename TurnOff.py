@@ -2,7 +2,6 @@ from tkinter import ttk
 from tkinter import *
 import os
 
-
 bg_color = "#607f75"
 green = "#BDE4A7"
 
@@ -45,7 +44,7 @@ ok.grid(row=2, column=1, pady = 10, padx=10)
 
 
 cancel = Button(
-                window, 
+                window,
                 text="Nope, Lets wait",
                 activebackground=green,
                 background= bg_color,
@@ -59,4 +58,3 @@ cancel.grid(row=2, column=2, pady = 10, padx=10)
 
 
 window.mainloop()
-
